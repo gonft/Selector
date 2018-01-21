@@ -6,6 +6,9 @@ target 'Selector' do
   use_frameworks!
 
   # Pods for Selector
+  pod 'Firebase/Storage'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 
   target 'SelectorTests' do
     inherit! :search_paths
