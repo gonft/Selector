@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 import Material
 import Motion
 import FSPagerView
@@ -30,6 +32,20 @@ class IntroViewController: UIViewController {
         prepareSignIn()
         prepareIntroduceApp()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Hide the navigation bar on the this view controller
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//
+//        // Show the navigation bar on other view controllers
+//        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -57,6 +73,8 @@ extension IntroViewController {
     
     fileprivate func prepareIntroduceApp() {
         introduceApp.titleLabel?.font = RobotoFont.medium(with: 17)
+        introduceApp.backgroundColor = .clear
+        introduceApp.pulseOpacity = 0
         introduceApp.titleColor = UIColor("#9E9D24")
     }
 }

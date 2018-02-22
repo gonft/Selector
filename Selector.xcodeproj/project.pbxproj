@@ -15,6 +15,7 @@
 		7200CBA8203EBEB800126E7D /* IntroduceAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200CBA7203EBEB800126E7D /* IntroduceAppViewController.swift */; };
 		7200CBAB203EC2D000126E7D /* IntroPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200CBA9203EC2D000126E7D /* IntroPagerViewCell.swift */; };
 		7200CBAC203EC2D000126E7D /* IntroPagerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7200CBAA203EC2D000126E7D /* IntroPagerViewCell.xib */; };
+		7200CBAE203ED2B400126E7D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7200CBAD203ED2B400126E7D /* GoogleService-Info.plist */; };
 		72C54455201435AA005E2BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54454201435AA005E2BBD /* AppDelegate.swift */; };
 		72C54457201435AA005E2BBD /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54456201435AA005E2BBD /* IntroViewController.swift */; };
 		72C5445A201435AA005E2BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C54458201435AA005E2BBD /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		7200CBA7203EBEB800126E7D /* IntroduceAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceAppViewController.swift; sourceTree = "<group>"; };
 		7200CBA9203EC2D000126E7D /* IntroPagerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPagerViewCell.swift; sourceTree = "<group>"; };
 		7200CBAA203EC2D000126E7D /* IntroPagerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroPagerViewCell.xib; sourceTree = "<group>"; };
+		7200CBAD203ED2B400126E7D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		72C54451201435AA005E2BBD /* Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C54454201435AA005E2BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72C54456201435AA005E2BBD /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				72C54458201435AA005E2BBD /* Main.storyboard */,
 				72C5445B201435AA005E2BBD /* Assets.xcassets */,
 				72C5445D201435AA005E2BBD /* LaunchScreen.storyboard */,
+				7200CBAD203ED2B400126E7D /* GoogleService-Info.plist */,
 				72C54460201435AA005E2BBD /* Info.plist */,
 			);
 			path = Selector;
@@ -322,6 +325,7 @@
 			files = (
 				72C5445F201435AA005E2BBD /* LaunchScreen.storyboard in Resources */,
 				7200CBAC203EC2D000126E7D /* IntroPagerViewCell.xib in Resources */,
+				7200CBAE203ED2B400126E7D /* GoogleService-Info.plist in Resources */,
 				72C5445C201435AA005E2BBD /* Assets.xcassets in Resources */,
 				72C5445A201435AA005E2BBD /* Main.storyboard in Resources */,
 			);

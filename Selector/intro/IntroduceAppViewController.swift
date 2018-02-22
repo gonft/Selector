@@ -7,13 +7,22 @@
 //
 
 import UIKit
+import Material
 
 class IntroduceAppViewController: UIViewController {
 
+    @IBOutlet weak var labelTitle: UILabel!
+    @IBOutlet weak var labelSub: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        isMotionEnabled = true
+        motionTransitionType = .fade
+        
+        labelTitle.font = RobotoFont.bold(with: 34)
+        labelSub.font = RobotoFont.bold(with: 17)
     }
 
     override func didReceiveMemoryWarning() {

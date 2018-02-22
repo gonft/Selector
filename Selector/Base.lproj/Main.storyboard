@@ -61,7 +61,7 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
                                         <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Selector"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="introduce Selector"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="AIw-dw-tYx" kind="presentation" id="9uH-1C-9Ak"/>
@@ -146,9 +146,49 @@
                     <view key="view" contentMode="scaleToFill" id="4wS-oi-Z7m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZ7-YJ-AQF">
+                                <rect key="frame" x="329" y="36" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0Wu-fC-0Hk"/>
+                                    <constraint firstAttribute="width" constant="30" id="nRo-7g-giT"/>
+                                </constraints>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="motionDismissViewController" destination="AIw-dw-tYx" eventType="touchUpInside" id="MbY-dy-MOX"/>
+                                    <action selector="motionDismissViewController" destination="E3c-Hb-cyJ" eventType="touchUpInside" id="tyc-P8-tSV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcom Selector" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7x-WC-w0l">
+                                <rect key="frame" x="32" y="52" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ql-DE-WT7">
+                                <rect key="frame" x="32" y="89" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hyc-sm-myY" firstAttribute="trailing" secondItem="BZ7-YJ-AQF" secondAttribute="trailing" constant="16" id="6A9-o3-w9a"/>
+                            <constraint firstItem="e7x-WC-w0l" firstAttribute="leading" secondItem="hyc-sm-myY" secondAttribute="leading" constant="32" id="F8Q-jq-TVA"/>
+                            <constraint firstItem="BZ7-YJ-AQF" firstAttribute="top" secondItem="hyc-sm-myY" secondAttribute="top" constant="16" id="FNU-Kc-ovT"/>
+                            <constraint firstItem="9Ql-DE-WT7" firstAttribute="top" secondItem="e7x-WC-w0l" secondAttribute="bottom" constant="16" id="JVc-tE-E3i"/>
+                            <constraint firstItem="e7x-WC-w0l" firstAttribute="top" secondItem="hyc-sm-myY" secondAttribute="top" constant="32" id="cOB-1Y-ncc"/>
+                            <constraint firstItem="9Ql-DE-WT7" firstAttribute="leading" secondItem="hyc-sm-myY" secondAttribute="leading" constant="32" id="jPa-a0-dCx"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hyc-sm-myY"/>
                     </view>
+                    <connections>
+                        <outlet property="labelSub" destination="9Ql-DE-WT7" id="zaI-Xp-WdS"/>
+                        <outlet property="labelTitle" destination="e7x-WC-w0l" id="41Y-Gc-OlD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Rm-Fh-IUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
