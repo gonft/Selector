@@ -19,7 +19,8 @@ class SignInViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         isMotionEnabled = true
-        motionTransitionType = .cover(direction: .up)
+//        motionTransitionType = .cover(direction: .up)
+        motionTransitionType = .fade
         prepareSignIn()
         animationDepth()
     }
@@ -43,6 +44,7 @@ class SignInViewController: UIViewController {
 }
 
 extension SignInViewController {
+    
     fileprivate func prepareSignIn() {
         signIn.cornerRadiusPreset = .cornerRadius7
         signIn.titleLabel?.font = RobotoFont.bold(with: 17)
@@ -52,15 +54,8 @@ extension SignInViewController {
     
     fileprivate func animationDepth() {
         signIn.depthPreset = .none
-        
         signIn.animate(.delay(0.5),
                        .duration(0.5),
-                       .depth(.depth5),
-                       .completion({ [weak self] in
-                        
-//                        self?.signIn.animate(.delay(1),
-//                                             .duration(0.5),
-//                                             .depth(.depth5))
-                       }))
+                       .depth(.depth5))
     }
 }
