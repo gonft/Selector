@@ -1,3 +1,121 @@
-PODFILE CHECKSUM: c5e29bbea5055d69a27689fd92b1f35719cc8ed6
+PODS:
+  - ActiveLabel (0.8.1)
+  - Alamofire (4.6.0)
+  - Firebase/Auth (4.9.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.4.3)
+  - Firebase/Core (4.9.0):
+    - FirebaseAnalytics (= 4.0.9)
+    - FirebaseCore (= 4.0.15)
+  - Firebase/Database (4.9.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.4)
+  - Firebase/Storage (4.9.0):
+    - Firebase/Core
+    - FirebaseStorage (= 2.1.2)
+  - FirebaseAnalytics (4.0.9):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.4.3):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.15):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (4.1.4):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.9):
+    - FirebaseCore (~> 4.0)
+  - FirebaseStorage (2.1.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FSPagerView (0.7.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - Graph (2.2.0)
+  - GTMSessionFetcher/Core (1.1.13)
+  - leveldb-library (1.20)
+  - Material (2.13.6):
+    - Material/Core (= 2.13.6)
+  - Material/Core (2.13.6):
+    - Motion (~> 1.3.0)
+  - Motion (1.3.5):
+    - Motion/Core (= 1.3.5)
+  - Motion/Core (1.3.5)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - RxAlamofire (4.0.0):
+    - RxAlamofire/Core (= 4.0.0)
+  - RxAlamofire/Core (4.0.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxKeyboard (0.8.1):
+    - RxCocoa (>= 4.0.0)
+    - RxSwift (>= 4.0.0)
+  - RxSwift (4.1.2)
+  - SwiftyBeaver (1.5.1)
+  - UIColor_Hex_Swift (4.0.1)
 
-COCOAPODS: 1.3.1
+DEPENDENCIES:
+  - ActiveLabel
+  - Firebase/Auth
+  - Firebase/Database
+  - Firebase/Storage
+  - FSPagerView (~> 0.7.1)
+  - Graph (~> 2.2.0)
+  - Material (~> 2.0)
+  - Motion (~> 1.3.5)
+  - RxAlamofire
+  - RxCocoa (~> 4.0)
+  - RxKeyboard
+  - RxSwift (~> 4.0)
+  - SwiftyBeaver
+  - UIColor_Hex_Swift
+  - UIColor_Hex_Swift (~> 4.0.1)
+
+SPEC CHECKSUMS:
+  ActiveLabel: e361127c355b911a467db3d5a897b3d7f902e568
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Firebase: 632216af3ed7f31e3be34776947fdc7546cfb572
+  FirebaseAnalytics: 388b630c15713f5dbf364071f5f3d6077fb52f4e
+  FirebaseAuth: aaaf68d5064a6c8fec435758f83a43b8db26ccaa
+  FirebaseCore: 3bd047463058fa6b5d312c97502c52e45401cdfb
+  FirebaseDatabase: de4446507ccd3257fca37d16f40e1540324571fd
+  FirebaseInstanceID: d2058a35e9bebda1b6dd42486b84917bde552a9d
+  FirebaseStorage: 181bb543d39ee3c53e0558de7ba86b1286a0427f
+  FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  Graph: 7c525bfb1c8e57442a5b34470fbefc014d9825b1
+  GTMSessionFetcher: 5bb1eae636127de695590f50e7d248483eb891e6
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  Material: ef704dcc1bced32ab7c91ece2ba734da557e3f36
+  Motion: 9f74d115d7f72bb5380a8e3cde2f8a1fc898ac36
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  RxAlamofire: 6ea579ac53bf14cb4bc7049a3866e5a769989b1d
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxKeyboard: 28d984440671becc75350b1dfae7ae08d31076df
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SwiftyBeaver: 4f74563624b2c1e821c522c54142b5dd5ebb0f30
+  UIColor_Hex_Swift: c5ff88470499383b8fd85302d59344bb24ba9436
+
+PODFILE CHECKSUM: 4373659a22bd84375551e6a7706d2661490d1444
+
+COCOAPODS: 1.4.0

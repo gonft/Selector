@@ -10,8 +10,13 @@
 		10F6EA5A79E04F2979527E7F /* Pods_SelectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84AECA6D9BD4AF89734976 /* Pods_SelectorTests.framework */; };
 		2F5043349B1261CD2A3C92BE /* Pods_SelectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C467D3C06EE84D7DAE0FAB74 /* Pods_SelectorUITests.framework */; };
 		4DFEFDAEB781F20A56897E05 /* Pods_Selector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556D179D4B47E90C3F8C4B43 /* Pods_Selector.framework */; };
+		7200CBA4203EBE8A00126E7D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200CBA3203EBE8A00126E7D /* SignUpViewController.swift */; };
+		7200CBA6203EBE9100126E7D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200CBA5203EBE9100126E7D /* SignInViewController.swift */; };
+		7200CBA8203EBEB800126E7D /* IntroduceAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200CBA7203EBEB800126E7D /* IntroduceAppViewController.swift */; };
+		7200CBAB203EC2D000126E7D /* IntroPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200CBA9203EC2D000126E7D /* IntroPagerViewCell.swift */; };
+		7200CBAC203EC2D000126E7D /* IntroPagerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7200CBAA203EC2D000126E7D /* IntroPagerViewCell.xib */; };
 		72C54455201435AA005E2BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54454201435AA005E2BBD /* AppDelegate.swift */; };
-		72C54457201435AA005E2BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54456201435AA005E2BBD /* ViewController.swift */; };
+		72C54457201435AA005E2BBD /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C54456201435AA005E2BBD /* IntroViewController.swift */; };
 		72C5445A201435AA005E2BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C54458201435AA005E2BBD /* Main.storyboard */; };
 		72C5445C201435AA005E2BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C5445B201435AA005E2BBD /* Assets.xcassets */; };
 		72C5445F201435AA005E2BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C5445D201435AA005E2BBD /* LaunchScreen.storyboard */; };
@@ -39,9 +44,14 @@
 /* Begin PBXFileReference section */
 		556D179D4B47E90C3F8C4B43 /* Pods_Selector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Selector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E464B8D2C11AD23D467BFF0 /* Pods-Selector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Selector/Pods-Selector.debug.xcconfig"; sourceTree = "<group>"; };
+		7200CBA3203EBE8A00126E7D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7200CBA5203EBE9100126E7D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7200CBA7203EBEB800126E7D /* IntroduceAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceAppViewController.swift; sourceTree = "<group>"; };
+		7200CBA9203EC2D000126E7D /* IntroPagerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPagerViewCell.swift; sourceTree = "<group>"; };
+		7200CBAA203EC2D000126E7D /* IntroPagerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroPagerViewCell.xib; sourceTree = "<group>"; };
 		72C54451201435AA005E2BBD /* Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C54454201435AA005E2BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72C54456201435AA005E2BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72C54456201435AA005E2BBD /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		72C54459201435AA005E2BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72C5445B201435AA005E2BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72C5445E201435AA005E2BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,6 +99,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7200CB9F203EB74F00126E7D /* intro */ = {
+			isa = PBXGroup;
+			children = (
+				72C54456201435AA005E2BBD /* IntroViewController.swift */,
+				7200CBA7203EBEB800126E7D /* IntroduceAppViewController.swift */,
+				7200CBA9203EC2D000126E7D /* IntroPagerViewCell.swift */,
+				7200CBAA203EC2D000126E7D /* IntroPagerViewCell.xib */,
+			);
+			path = intro;
+			sourceTree = "<group>";
+		};
+		7200CBA0203EBE5900126E7D /* signup */ = {
+			isa = PBXGroup;
+			children = (
+				7200CBA3203EBE8A00126E7D /* SignUpViewController.swift */,
+			);
+			path = signup;
+			sourceTree = "<group>";
+		};
+		7200CBA1203EBE5E00126E7D /* signin */ = {
+			isa = PBXGroup;
+			children = (
+				7200CBA5203EBE9100126E7D /* SignInViewController.swift */,
+			);
+			path = signin;
+			sourceTree = "<group>";
+		};
 		72C54448201435AA005E2BBD = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +151,10 @@
 		72C54453201435AA005E2BBD /* Selector */ = {
 			isa = PBXGroup;
 			children = (
+				7200CBA1203EBE5E00126E7D /* signin */,
+				7200CBA0203EBE5900126E7D /* signup */,
+				7200CB9F203EB74F00126E7D /* intro */,
 				72C54454201435AA005E2BBD /* AppDelegate.swift */,
-				72C54456201435AA005E2BBD /* ViewController.swift */,
 				72C54458201435AA005E2BBD /* Main.storyboard */,
 				72C5445B201435AA005E2BBD /* Assets.xcassets */,
 				72C5445D201435AA005E2BBD /* LaunchScreen.storyboard */,
@@ -282,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72C5445F201435AA005E2BBD /* LaunchScreen.storyboard in Resources */,
+				7200CBAC203EC2D000126E7D /* IntroPagerViewCell.xib in Resources */,
 				72C5445C201435AA005E2BBD /* Assets.xcassets in Resources */,
 				72C5445A201435AA005E2BBD /* Main.storyboard in Resources */,
 			);
@@ -325,9 +365,42 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Selector/Pods-Selector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Graph/Graph.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxKeyboard/RxKeyboard.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Graph.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxKeyboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -455,7 +528,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72C54457201435AA005E2BBD /* ViewController.swift in Sources */,
+				7200CBA8203EBEB800126E7D /* IntroduceAppViewController.swift in Sources */,
+				7200CBA6203EBE9100126E7D /* SignInViewController.swift in Sources */,
+				7200CBA4203EBE8A00126E7D /* SignUpViewController.swift in Sources */,
+				7200CBAB203EC2D000126E7D /* IntroPagerViewCell.swift in Sources */,
+				72C54457201435AA005E2BBD /* IntroViewController.swift in Sources */,
 				72C54455201435AA005E2BBD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
