@@ -308,7 +308,7 @@
                                                 <rect key="frame" x="32" y="190" width="311" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next" textContentType="nickname"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zoe-HU-9qj">
                                                 <rect key="frame" x="32" y="248" width="48.5" height="21"/>
@@ -320,7 +320,7 @@
                                                 <rect key="frame" x="32" y="277" width="311" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next" textContentType="email"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFa-5n-SBz">
                                                 <rect key="frame" x="32" y="335" width="74" height="21"/>
@@ -332,7 +332,7 @@
                                                 <rect key="frame" x="32" y="364" width="311" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -433,7 +433,7 @@
         <!--View Controller-->
         <scene sceneID="gT5-m4-eRw">
             <objects>
-                <viewController id="uU0-hR-QKI" customClass="ViewController" customModule="scrollViewAutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uU0-hR-QKI" customClass="ViewController" customModule="Selector" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yxO-Ya-Xur"/>
                         <viewControllerLayoutGuide type="bottom" id="vUw-Wo-akH"/>
